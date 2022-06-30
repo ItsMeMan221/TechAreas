@@ -1,0 +1,26 @@
+.card {
+  width: 150px;
+  height: 180px;
+  margin-top: 50px !important;
+  margin-left: 30px !important;
+  background-color: #3700b3;
+  border-radius: 10%;
+  border: #8bde62 1px solid;
+}
+.bi {
+  font-size: 50px;
+  color: #8bde62;
+}
+.bcol {
+  background-color: #191919;
+}
+.card-title {
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+hr {
+  width: 100% !important;
+}

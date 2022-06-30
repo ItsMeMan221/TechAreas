@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+.jumbo-user {
+  background-image: url("../img/2774835.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 15%;
+}
+.img-profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -8%;
+  border: solid 3px #f98007;
+}
+.drop {
+  background-color: #424242;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+.w-75m {
+  width: 75% !important;
+}
+.detailUser {
+  font-family: "Mukta", sans-serif;
+}
+.priv-img {
+  width: 150px;
+  height: 150px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+@media only screen and (max-width: 600px) {
+  .jumbo-user {
+    background-image: url("../img/2774835.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 45%;
+  }
+  .img-profile {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -20%;
+    border: solid 3px #f98007;
+  }
+  .w-75m {
+    width: 100% !important;
+  }
+}

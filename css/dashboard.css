@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+.artikel {
+  font-family: "Mukta", sans-serif;
+  color: #ffffff;
+}
+.ma-nav {
+  margin-top: 5%;
+}
+.h-car {
+  width: 350px;
+  height: 350px;
+}
+.card-bc {
+  background-color: #424242 !important;
+}
+.judulArtikel {
+  font-family: "Mukta", sans-serif;
+  color: #330066;
+}
+.carousel-inner {
+  border-radius: 10px;
+}
+.dibuat {
+  color: #acacac;
+}
+.un-a {
+  color: unset !important;
+  text-decoration: none !important;
+}
+.card-bc {
+  height: 500px !important;
+}
+.hr-berita {
+  display: block;
+  height: 0px;
+  border-top: 10px solid red;
+}
+.spek {
+  font-family: "Mukta", sans-serif;
+  color: #ffffff;
+}
+.h-spek {
+  width: 150px;
+  height: 300px;
+}
+.card-s {
+  height: 450px !important;
+  background-color: #424242 !important;
+}
+.cf {
+  margin-top: 500px;
+}

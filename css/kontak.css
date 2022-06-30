@@ -1,0 +1,12 @@
+.img-samping {
+  max-width: 100%;
+  max-height: 100%;
+}
+.hr-kontak {
+  display: block;
+  height: 0px;
+  border-top: 10px solid blue;
+}
+.bc-contain {
+  background-color: #424242 !important;
+}
