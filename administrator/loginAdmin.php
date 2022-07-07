@@ -117,7 +117,7 @@ if (isset($_POST['action']) == 'loggedAdmin') {
         data.append('action', 'loggedAdmin');
         var form = $(this);
         form.find(':submit').attr('disabled', true);
-        var url = "/412020004_SANTIAGO/administrator/loginAdmin.php";
+        var url = "../administrator/loginAdmin.php";
         $.ajax({
             type: 'POST',
             url: url,
@@ -144,7 +144,7 @@ if (isset($_POST['action']) == 'loggedAdmin') {
                     form.trigger('reset');
                     form.find('small').text('');
                     // handling success response
-                    document.location.href = "/412020004_SANTIAGO/administrator/dashboardAdmin.php";
+                    document.location.href = "../administrator/dashboardAdmin.php";
 
                 } else if (response.status == 0) {
                     Swal.fire({

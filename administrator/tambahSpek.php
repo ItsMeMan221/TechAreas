@@ -283,7 +283,7 @@ if (isset($_POST['action']) == 'tambah') {
                 data.append('action', 'tambah');
                 var form = $(this);
                 form.find(':submit').attr('disabled', true);
-                var url = "/412020004_SANTIAGO/administrator/tambahSpek.php";
+                var url = "../administrator/tambahSpek.php";
                 $.ajax({
                     type: 'POST',
                     url: url,

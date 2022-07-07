@@ -127,7 +127,7 @@ session_start();
             $('#modalProfile').modal("show")
             $.ajax({
                 type: "POST",
-                url: "/412020004_SANTIAGO/userData/profile.php",
+                url: "../userData/profile.php",
                 data: {
                     req: "editUser",
                     id: <?php echo $_SESSION['data_user']['id']; ?>
@@ -161,7 +161,7 @@ session_start();
                 if (result.value) {
                     $.ajax({
                         type: "POST",
-                        url: "/412020004_SANTIAGO/userData/editProfile.php",
+                        url: "../userData/editProfile.php",
                         data: formData,
                         dataType: "JSON",
                         contentType: false,
@@ -204,7 +204,7 @@ session_start();
     function getUser() {
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/profile.php",
+            url: "../userData/profile.php",
             data: {
                 req: "detailUser",
                 id: <?php echo $_SESSION['data_user']['id']; ?>
@@ -224,7 +224,7 @@ session_start();
     function getGender(genderId) {
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/profile.php",
+            url: "../userData/profile.php",
             data: {
                 req: "gender"
             },

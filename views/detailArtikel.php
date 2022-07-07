@@ -73,7 +73,7 @@ session_start();
     function getDetailArtikel() {
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/detail.php",
+            url: "../userData/detail.php",
             data: {
                 req: 'dataArtikel',
                 id: id
@@ -97,7 +97,7 @@ session_start();
         itemTerkait = "";
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/detail.php",
+            url: "../userData/detail.php",
             data: {
                 req: 'dataTerkait',
                 id: id,
@@ -117,7 +117,7 @@ session_start();
         itemBaca = "";
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/detail.php",
+            url: "../userData/detail.php",
             data: {
                 req: 'dataBacaJuga',
                 id: id,

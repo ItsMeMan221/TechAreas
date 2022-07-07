@@ -74,7 +74,7 @@ session_start();
     $(this).ready(function() {
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataBrand.php",
+            url: "../data/dataBrand.php",
             data: {
                 req: 'rows'
             },
@@ -101,7 +101,7 @@ session_start();
         $("#ModalBrand").modal("show");
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataBrand.php",
+            url: "../data/dataBrand.php",
             data: {
                 req: 'brand',
                 id: itemId
@@ -130,7 +130,7 @@ session_start();
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/actionBrand.php",
+                    url: "../data/actionBrand.php",
                     data: {
                         req: 'delete',
                         id: itemId
@@ -169,7 +169,7 @@ session_start();
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/actionBrand.php",
+                    url: "../data/actionBrand.php",
                     data: formData,
                     dataType: "JSON",
                     contentType: false,
@@ -231,7 +231,7 @@ session_start();
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/addBrand.php",
+                    url: "../data/addBrand.php",
                     data: formData,
                     dataType: "JSON",
                     contentType: false,

@@ -90,7 +90,7 @@ session_start();
     function getDetailSpek() {
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/detail.php",
+            url: "../userData/detail.php",
             data: {
                 req: 'dataSpek',
                 id: id
@@ -125,7 +125,7 @@ session_start();
         var other = "";
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/detail.php",
+            url: "../userData/detail.php",
             data: {
                 req: 'dataLainnya',
                 id: id

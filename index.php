@@ -128,7 +128,7 @@ if (isset($_POST['action']) == 'login') {
         data.append('action', 'login');
         var form = $(this);
         form.find(':submit').attr('disabled', true);
-        var url = "/412020004_SANTIAGO/index.php";
+        var url = "index.php";
         $.ajax({
             type: 'POST',
             url: url,

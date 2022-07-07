@@ -87,7 +87,7 @@
     $(this).ready(function() {
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/profile.php",
+            url: "../userData/profile.php",
             data: {
                 id: <?php echo $_SESSION['data_user']['id'] ?>,
                 req: 'avatar'
@@ -116,7 +116,7 @@
             }).then((result) => {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/userData/changePass.php",
+                    url: "../userData/changePass.php",
                     data: formData,
                     dataType: "JSON",
                     contentType: false,

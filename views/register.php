@@ -125,22 +125,22 @@ if (isset($_POST['action']) == 'register') {
             }
             $response = array(
                 'status' => 1,
-                'msg' => 'Register success'
+                'msg' => 'Register berhasil'
             );
         } else {
             $response = array(
                 'status' => 0,
-                'msg' => 'Register fail'
+                'msg' => 'Register gagal'
             );
         }
         $response = array(
             'status' => 1,
-            'msg' => 'Register success'
+            'msg' => 'Register berhasil'
         );
     } else {
         $response = array(
             'status' => 0,
-            'msg' => 'Register fail'
+            'msg' => 'Register gagal'
         );
     }
     echo json_encode($response);
@@ -266,7 +266,7 @@ if (isset($_POST['action']) == 'register') {
             data.append('action', 'register');
             var form = $(this);
             form.find(':submit').attr('disabled', true);
-            var url = "/412020004_SANTIAGO/views/register.php";
+            var url = "register.php";
             $.ajax({
                 type: 'POST',
                 url: url,

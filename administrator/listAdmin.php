@@ -61,7 +61,7 @@ session_start();
         $(this).ready(function() {
             $.ajax({
                 type: "POST",
-                url: "/412020004_SANTIAGO/data/dataAdmin.php",
+                url: "../data/dataAdmin.php",
                 data: {
                     req: 'dataAdmin',
                 },

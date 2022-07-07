@@ -266,7 +266,7 @@ if (isset($_POST['action']) == 'addAdmin') {
             var form = $(this);
             console.log(form);
             form.find(':submit').attr('disabled', true);
-            var url = "/412020004_SANTIAGO/administrator/tambahAdmin.php";
+            var url = "../administrator/tambahAdmin.php";
             $.ajax({
                 type: 'POST',
                 url: url,

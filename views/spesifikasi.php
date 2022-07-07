@@ -84,7 +84,7 @@ require '../components/dbconn.php';
 
             $.ajax({
                 type: 'POST',
-                url: '/412020004_SANTIAGO/userData/loadMoreSpek.php',
+                url: '../userData/loadMoreSpek.php',
                 data: 'row=' + row,
                 success: function(data) {
                     var rowCount = row + limit;

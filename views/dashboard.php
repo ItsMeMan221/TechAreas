@@ -59,7 +59,7 @@ session_start();
         var items = "";
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/dashboardRows.php",
+            url: "../userData/dashboardRows.php",
             data: {
                 req: 'dataArtikel',
             },
@@ -79,7 +79,7 @@ session_start();
         var items = "";
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/userData/dashboardRows.php",
+            url: "../userData/dashboardRows.php",
             data: {
                 req: 'dataSpek',
             },

@@ -94,7 +94,7 @@ session_start();
                 if (result.value) {
                     $.ajax({
                         type: "POST",
-                        url: "/412020004_SANTIAGO/userData/contact.php",
+                        url: "../userData/contact.php",
                         data: formData,
                         dataType: "JSON",
                         contentType: false,

@@ -79,7 +79,7 @@ require '../components/dbconn.php'
 
             $.ajax({
                 type: 'POST',
-                url: '/412020004_SANTIAGO/data/loadMore.php',
+                url: '../data/loadMore.php',
                 data: 'row=' + row,
                 success: function(data) {
                     var rowCount = row + limit;

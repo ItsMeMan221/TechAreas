@@ -131,7 +131,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         var control = 2;
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataArtikel.php",
+            url: "../data/dataArtikel.php",
             data: {
                 req: 'rows'
             },
@@ -203,7 +203,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/dataArtikel.php",
+                    url: "../data/dataArtikel.php",
                     data: {
                         req: 'delete',
                         id: idArtikel
@@ -243,7 +243,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         $("#detailModal").modal("show");
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataArtikel.php",
+            url: "../data/dataArtikel.php",
             data: {
                 req: 'segmen'
             },
@@ -264,7 +264,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         });
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/detailArtikel.php",
+            url: "../data/detailArtikel.php",
             data: {
                 req: 'allVal',
                 id: idArtikel
@@ -331,7 +331,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/editArtikel.php",
+                    url: "../data/editArtikel.php",
                     data: formData,
                     dataType: "JSON",
                     contentType: false,

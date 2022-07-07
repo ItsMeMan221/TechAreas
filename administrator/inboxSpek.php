@@ -164,7 +164,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         // Populasi Tabel Spek
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataSpek.php",
+            url: "../data/dataSpek.php",
             data: {
                 req: 'rows'
             },
@@ -245,7 +245,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/dataSpek.php",
+                    url: "../data/dataSpek.php",
                     data: {
                         req: 'delete',
                         id: idSpek
@@ -286,7 +286,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         $("#detailModal").modal("show");
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataSpek.php",
+            url: "../data/dataSpek.php",
             data: {
                 req: 'segmen'
             },
@@ -307,7 +307,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         });
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/dataSpek.php",
+            url: "../data/dataSpek.php",
             data: {
                 req: 'brand'
             },
@@ -328,7 +328,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
         });
         $.ajax({
             type: "POST",
-            url: "/412020004_SANTIAGO/data/detailSpek.php",
+            url: "../data/detailSpek.php",
             data: {
                 req: 'allVal',
                 id: idArtikel
@@ -402,7 +402,7 @@ $role_id = $_SESSION['data_admin']['role_id'];
             if (result.value) {
                 $.ajax({
                     type: "POST",
-                    url: "/412020004_SANTIAGO/data/editSpek.php",
+                    url: "../data/editSpek.php",
                     data: formData,
                     dataType: "JSON",
                     contentType: false,
