@@ -32,7 +32,7 @@ if (isset($_POST['req'])) {
     $reqT = $_REQUEST['req'];
     if ($reqT == 'searchBerita') {
         $search = $_POST['search'];
-        $query = "SELECT * FROM artikel WHERE status_id = 2 AND (judul LIKE '%" . $search . "%') ORDER BY tanggal_dibuat desc";
+        $query = "SELECT * FROM artikel WHERE status_id = 2 AND (judul LIKE '%" . $search . "%' OR isi LIKE '%" . $search . "%') ORDER BY tanggal_dibuat desc";
         $resSearch = mysqli_query($conn, $query);
         while ($row = $resSearch->fetch_assoc()) {
         ?>
